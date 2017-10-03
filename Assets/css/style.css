@@ -1,0 +1,240 @@
+
+body {
+	font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+
+}
+
+li {
+    float: left;
+    border-right:1px solid #A4A4A4;
+}
+
+li:first-child {
+    border-right: none;
+}
+
+li:nth-child(2) {
+    border-right: none;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    margin-right: 0px;
+   
+}
+
+h1 {
+	margin-top: 5px;
+	color: #2FBFAC;
+	margin-left: 68px;
+}
+
+ 
+div {
+	background-image: url('binding_light.png') ;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#bio {
+	width: 700px;
+	height: 700px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-left: 150px;
+	margin-top: 50px;
+	float: left 10%;
+	margin-bottom: 50px;
+
+
+
+}
+
+#aboutme {
+	margin-left: 50px;
+	float: left;
+	
+	
+}
+
+#profilepic {
+
+	float: left;
+	margin: 0 15px 10px 0;
+} 
+
+
+p {
+	margin-left: 50px;
+	clear: both;
+	line-height: 200%;
+	margin-right: 50px;
+}
+
+
+#connect {
+	width: 350px;
+	height: 200px;
+	float: right 10%;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a6a6a6;
+	margin-left: 100px;
+	position: absolute;
+	top: 129px;
+	right: 150px;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 150%;
+}
+
+#Github {
+	float: left; width: 100px;
+	margin-left: 20px;
+}
+
+#Linkedin {
+	float: left; width: 100px;
+}
+
+#Stackoverflow {
+	float: left; width: 100px;
+	margin-left: 5px;
+
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+#textboxes {
+	border-radius:5px;
+	background-color: whitesmoke;
+    padding: 20px;
+    margin-left: 25px;
+	margin-right: 25px;
+	float: left;
+	border: 1px solid #070101;
+}
+
+#contactinfo {
+	width: 700px;
+	height: 625px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a6a6a6;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#contact {
+	margin-left: 50px;
+	float: left;
+}
+
+#message {
+	height: 200px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #070101;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #2FBFAC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#portfoliopage {
+	width: 640px;
+	height: 625px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#portfolio {
+	margin-left: 50px;
+	float: left;
+}
+
+#placeholder1 {
+	float: left;
+	width: 250px;
+	height: 150px;
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#placeholder2 {
+	float: right;
+	width: 250px;
+	height: auto;
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#placeholder3 {
+	float: left;
+	width: 250px;
+	height: 288px;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+#placeholder4 {
+	float: right;
+	width: 250px;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+}
