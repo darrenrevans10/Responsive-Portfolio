@@ -1,84 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
-
-
   <meta charset="UTF-8">
-  <title>Portfolio</title>
-
-  <link rel="stylesheet" href="Assets/css/reset.css">
+  <title>Contact | Darren Evans</title>
+  <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-
-  
 </head>
 
 <body>
 
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Darren Evans</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <ul>
-  <li><h1>Darren Evans</h1></li>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-  <li style="float:right"><a href="contact.html">Contact</a></li>
-  <li style="float:right"><a href="portfolio.html">Portfolio</a></li>
-  <li style="float:right"><a href="index.html">About</a></li>
-
-</ul>
-
-
-<div>
-
-<section id="contactinfo">
-
-<h2 id="contact">Contact</h2>
-
-
-
-<section id="textboxes"
- 	<label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="John Smith">
-
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-	
-	<label id="messge" for="message">Message</label>
-	<input type="text" id="message" name="message">
-
-
-	<input type="submit" value="Submit">
-
-</section>
-
-</section>
-
-
-
-<section id="connect">
-
-    <h3>Connect with Me</h3>
-
-
-     <a href="https://github.com/darrenrevans10" target="_blank">
-    <img id="Github" src="Assets/images/Github Logo.png" alt="Github">
-      </a>
-
-      <a href="https://stackoverflow.com/users/8513967/darren-evans" target="_blank">
-    <img id="Stackoverflow" src="Assets/images/Stackoverflow Logo.png" alt="Stackoverflow">
-      </a>
-
-      <a href="https://www.linkedin.com/in/darrenrevans/" target="_blank">
-    <img id="Linkedin" src="Assets/images/Linkedin Logo.png" alt="Linkedin">
-      </a>
-
-
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
-  </div>
 
-<div1 class="footer">
-  <p>Ⓒ Copyright 2017 Darren Evans</p>
-</div1>
+    <section class="sidebar">
+       <div id="connect">
+         <h2>Connect with Me</h2>
+ 
+         <a href="https://github.com/darrenrevans10" target="_blank">
+         <img src="Assets/images/Github Logo.png" class="social" alt="GitHub">
+         </a>
 
-</body>
-</html>
+         <a href="https://www.linkedin.com/in/darrenrevans/" target="_blank">
+         <img src="Assets/images/Linkedin Logo.png" class="social" alt="LinkedIn"></a>
+
+         <a href="https://stackoverflow.com/users/8513967/darren-evans">
+         <img src="Assets/images/Stackoverflow Logo.png" class="social" alt="Stack Overflow">
+         </a>
+
+       </div>
+     </section>
+   </div>
+ 
+   <footer>
+     <div class="container">
+       Copyright &copy; 2016 Darren Evans
+     </div>
+   </footer>
+ </body>
+ 
+ </html>
